@@ -1,39 +1,196 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Nostroino UNO by nostroino</title>
-
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Nostroino UNO</h1>
-        <p></p>
+<head>
+    <title> Nostroino UNO</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+html {
+    background-color: #eeeeee;
+}
 
 
-        <p class="view"><a href="https://github.com/nostroino">View My GitHub Profile</a></p>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 15px 15px 15px 15px;
+    padding: 0;
+}
+body {
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
 
-      </header>
-      <section>
-        <p>Baseado no Arduino UNO é 100% compatível com esta plataforma.</p>
+a {
+    color: #487aad;
+}
+a:hover {
+    color: #487aad;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 40px 20px 5px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
 
-<p>Criado por André Augusto Andreis e Diego Volpini com o objetivo de disponibilizar uma alternativa de menor custo e de fácil montagem.</p>
+    
+}
+blockquote {
+    padding: 15px 13px 21px 15px;
+    margin-bottom: 0px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    margin-top:0;
+    font-family:georgia,serif;
+    color:#eee;
+}
+
+blockquote:after {
+    content:" \201D";
+    font-size:40px;
+    margin-left:-10px;
+    margin-top:0;
+    font-family:georgia,serif;
+    color:#eee;
+}
+
+
+blockquote p {
+
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    display:inline;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>
+
+![alt text](board_back.png "Nostroino UNO (board back side)")
+
+
+Baseado no Arduino UNO é</title>
+
+</head>
+<body>
+<p><img src="board_back.png" title="Nostroino UNO (board back side)" alt="alt text" /></p>
+
+<p>Baseado no Arduino UNO é 100% compatível com esta plataforma.</p>
+
+<p>Criado por André Augusto Andreis (<a href="&#x6d;&#97;&#x69;&#108;&#x74;&#x6f;&#58;&#97;&#110;&#100;&#114;&#101;&#x69;&#x73;&#46;&#x61;&#110;&#x64;&#x72;&#101;&#64;&#103;&#109;&#97;&#x69;&#108;&#x2e;&#99;&#x6f;&#109;">&#x61;&#110;&#100;&#x72;&#x65;&#x69;&#115;&#x2e;&#x61;&#x6e;&#x64;&#x72;&#x65;&#x40;&#x67;&#109;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>) e <a href="https://github.com/dvolpini">Diego Volpini</a> com o objetivo de disponibilizar uma alternativa de menor custo e de fácil montagem.</p>
 
 <p>Nostroino está sendo distribuído segundo os critérios da Open Source Hardware Association e de acordo com os atributos BY-SA da Creative Commons.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+
+<p>A documentação completa pode ser encontrada em <a href="https://github.com/nostroino/UNO">https://github.com/nostroino/UNO</a></p>
+</body>
 </html>
