@@ -1,4 +1,4 @@
-#Nostroino UNO
+#NostroINO
 
 ![alt text](render_top.png "Nostroino UNO (KiCad Render")
 
